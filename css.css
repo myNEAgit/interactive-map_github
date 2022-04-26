@@ -1,0 +1,284 @@
+/*global*/
+p,
+a,
+h2,
+h3,
+.modal h1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  margin: 0;
+}
+/*intro*/
+.bg-gray {
+  background-color: #e6e7e8;
+  background: #e6e7e8;
+}
+.bg-gray h1 {
+  text-align: center;
+  padding: 2rem 0;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+}
+.bg-gray span {
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+}
+.intro-data img {
+  width: 100px;
+}
+
+.intro-data .d-flex {
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+
+.intro-data a {
+  background-color: #112e51;
+  color: white;
+  text-decoration: none;
+  padding: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*svg map */
+#state-name h2 {
+  text-align: center;
+}
+.st0 {
+  fill: #4773aa;
+}
+.st1 {
+  fill: #4773aa;
+  stroke: #ffffff;
+  stroke-width: 1.5;
+}
+g a:hover path,
+.st1:hover {
+  fill: #cd2026;
+}
+
+/*modal*/
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: rgba(255, 255, 255, 0.9);
+  margin: 5% auto 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.modal .data-row {
+  margin-top: 2rem;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.modal .data-row h2 {
+  font-size: 16px;
+  color: #112e51;
+}
+
+.modal .data-row p {
+  font-size: 14px;
+}
+
+.modal h1 {
+  text-align: center;
+  margin-top: -20px;
+  font-size: 22px;
+}
+
+/* The Close Button */
+.close {
+  color: #000000;
+  text-align: right;
+  font-size: 60px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.modal-content {
+  max-height: calc(100vh - 210px);
+  overflow-y: auto;
+}
+
+.modal-content img {
+  height: 80px;
+}
+
+.modal-content .d-flex div {
+  width: 33.33%;
+  text-align: center;
+}
+
+.modal-content #all-artists.d-flex img {
+  width: 33.33%;
+  text-align: center;
+}
+.modal-content #all-artists.d-flex div {
+  width: 67%;
+}
+.modal-content #all-artists.d-flex div.all-artists-info div.d-flex {
+  width: 100%;
+  justify-content: space-evenly;
+}
+.modal-content hr,
+.intro-data hr {
+  border-top: 3px solid #4773aa;
+}
+.modal-content hr {
+  width: 80%;
+}
+
+/*dropdown*/
+#dropdown {
+  text-align: left;
+  width: 90%;
+  margin: auto;
+  margin-top: 2rem;
+}
+.dropbtn {
+  background-color: #112e51;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+
+span.select-state {
+  margin-left: 2rem;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  width: 100%;
+  max-height: 500px;
+  overflow-y: auto;
+  border: 2px solid #112e51;
+  width: 90%;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}
+img#arrow {
+  height: 30px;
+  margin-left: 1rem;
+}
+img#arrow.rotated {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(90deg);
+}
+
+/*legend*/
+
+.legend {
+  margin-top: 3rem;
+  padding: 3rem;
+}
+.legend img {
+  height: 75px;
+}
+
+.legend div {
+  text-align: center;
+  width: 50%;
+}
+
+.legend div:nth-child(1) {
+  margin-right: 2rem;
+}
+
+@media only screen and (max-width: 700px) {
+  .d-flex {
+    display: block !important;
+  }
+  .modal-content .d-flex div,
+  .modal-content div {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+  .modal-content img,
+  .modal-content #all-artists.d-flex img {
+    height: unset;
+    width: 50%;
+    margin: auto;
+  }
+  /* Modal Content/Box */
+  .modal-content {
+    margin: 5% auto 5% auto;
+  }
+  .intro-data hr.bottom-border {
+    margin-top: 3rem;
+  }
+  .intro-data p {
+    margin-bottom: 3rem;
+  }
+  .legend {
+    padding: 1rem;
+  }
+  .legend div {
+    margin-right: auto !important;
+    margin-left: auto !important;
+    width: 100%;
+  }
+  .legend div:nth-child(2) {
+    margin-top: 2rem;
+  }
+}

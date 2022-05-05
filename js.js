@@ -18,8 +18,8 @@ const loadData = async () => {
                     <div class="all-artists-info">\
                         <h2>All Artists</h2>\
                         <div class="d-flex">\
-                            <p><strong>Count</strong><br>'+x.allArtists[0].count+'</p>\
-                            <p class="location-quotient"><strong>Location Quotient</strong><br>'+x.allArtists[0].lq+'</p>\
+                            <p><strong>Count</strong><br><span>'+x.allArtists[0].count+'</span></p>\
+                            <p class="location-quotient"><strong>Location Quotient</strong><br><span>'+x.allArtists[0].lq+'</span></p>\
                         </div>\
                     </div>\
                 </div>\
@@ -28,60 +28,60 @@ const loadData = async () => {
                     <div>\
                         <img src="img/architects.svg" />\
                         <h2>Architects</h2>\
-                        <p><strong>Count</strong><br>'+x.architects[0].count+'</p>\
-                        <p class="location-quotient"><strong>Location Quotient</strong><br>'+x.architects[0].lq+'</p>\
+                        <p><strong>Count</strong><br><span>'+x.architects[0].count+'</span></p>\
+                        <p class="location-quotient"><strong>Location Quotient</strong><br><span>'+x.architects[0].lq+'</span></p>\
                     </div>\
                     <div>\
                         <img src="img/art-directors.svg" />\
                         <h2>Art Directors, Fine Artists, and Animators</h2>\
-                        <p><strong>Count</strong><br>'+x.artDirectors[0].count+'</p>\
-                        <p class="location-quotient"><strong>Location Quotient</strong><br>'+x.artDirectors[0].lq+'</p>\
+                        <p><strong>Count</strong><br><span>'+x.artDirectors[0].count+'</span></p>\
+                        <p class="location-quotient"><strong>Location Quotient</strong><br><span>'+x.artDirectors[0].lq+'</span></p>\
                     </div>\
                     <div>\
                         <img src="img/designers.svg" />\
                         <h2>Designers</h2>\
-                        <p><strong>Count</strong><br>'+x.designers[0].count+'</p>\
-                        <p class="location-quotient"><strong>Location Quotient</strong><br>'+x.designers[0].lq+'</p>\
+                        <p><strong>Count</strong><br><span>'+x.designers[0].count+'</span></p>\
+                        <p class="location-quotient"><strong>Location Quotient</strong><br><span>'+x.designers[0].lq+'</span></p>\
                     </div>\
                 </div>\
                 <div class="d-flex data-row">\
                     <div>\
                         <img src="img/dancers.svg" />\
                         <h2>Dancers and Choreographers</h2>\
-                        <p><strong>Count</strong><br>'+x.dancers[0].count+'</p>\
-                        <p class="location-quotient"><strong>Location Quotient</strong><br>'+x.dancers[0].lq+'</p>\
+                        <p><strong>Count</strong><br><span>'+x.dancers[0].count+'</span></p>\
+                        <p class="location-quotient"><strong>Location Quotient</strong><br><span>'+x.dancers[0].lq+'</span></p>\
                     </div>\
                     <div>\
                         <img src="img/musicians.svg" />\
                         <h2>Musicians</h2>\
-                        <p><strong>Count</strong><br>'+x.musicians[0].count+'</p>\
-                        <p class="location-quotient"><strong>Location Quotient</strong><br>'+x.musicians[0].lq+'</p>\
+                        <p><strong>Count</strong><br><span>'+x.musicians[0].count+'</span></p>\
+                        <p class="location-quotient"><strong>Location Quotient</strong><br><span>'+x.musicians[0].lq+'</span></p>\
                     </div>\
                     <div>\
                         <img src="img/actors.svg" />\
                         <h2>Actors</h2>\
-                        <p><strong>Count</strong><br>'+x.actors[0].count+'</p>\
-                        <p class="location-quotient"><strong>Location Quotient</strong><br>'+x.actors[0].lq+'</p>\
+                        <p><strong>Count</strong><br><span>'+x.actors[0].count+'</span></p>\
+                        <p class="location-quotient"><strong>Location Quotient</strong><br><span>'+x.actors[0].lq+'</span></p>\
                     </div>\
                 </div>\
                 <div class="d-flex data-row">\
                     <div>\
                         <img src="img/entertainers.svg" />\
                         <h2>Entertainers</h2>\
-                        <p><strong>Count</strong><br>'+x.entertainers[0].count+'</p>\
-                        <p class="location-quotient"><strong>Location Quotient</strong><br>'+x.entertainers[0].lq+'</p>\
+                        <p><strong>Count</strong><br><span>'+x.entertainers[0].count+'</span></p>\
+                        <p class="location-quotient"><strong>Location Quotient</strong><br><span>'+x.entertainers[0].lq+'</span></p>\
                     </div>\
                     <div>\
                         <img src="img/writers.svg" />\
                         <h2>Writers and Authors</h2>\
-                        <p><strong>Count</strong><br>'+x.writers[0].count+'</p>\
-                        <p class="location-quotient"><strong>Location Quotient</strong><br>'+x.writers[0].lq+'</p>\
+                        <p><strong>Count</strong><br><span>'+x.writers[0].count+'</span></p>\
+                        <p class="location-quotient"><strong>Location Quotient</strong><br><span>'+x.writers[0].lq+'</span></p>\
                     </div>\
                     <div>\
                         <img src="img/photographers.svg" />\
                         <h2>Photographers</h2>\
-                        <p><strong>Count</strong><br>'+x.photographers[0].count+'</p>\
-                        <p class="location-quotient"><strong>Location Quotient</strong><br>'+x.photographers[0].lq+'</p>\
+                        <p><strong>Count</strong><br><span>'+x.photographers[0].count+'</span></p>\
+                        <p class="location-quotient"><strong>Location Quotient</strong><br><span>'+x.photographers[0].lq+'</span></p>\
                     </div>\
                 </div>\
               </div>\

@@ -76,7 +76,7 @@ g a:hover path,
 
 /* Modal Content/Box */
 .modal-content {
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 0.95);
   margin: 5% auto 15% auto;
   padding: 20px;
   border: 1px solid #888;
@@ -91,15 +91,22 @@ g a:hover path,
 }
 
 .modal .data-row h2 {
-  font-size: 16px;
-  color: #112e51;
+  font-size: 22px; /* was 16px; */
+  color: #4773aa;  /* was #112e51; */
+    margin-top: -4px; /* was not set */
 }
 
 .modal .data-row p {
   font-size: 14px;
 }
 
+.modal .data-row p span {
+  font-size: 25px;
+}
+
+
 .modal h1 {
+    text-transform: uppercase;
   text-align: center;
   margin-top: -20px;
   font-size: 22px;
@@ -131,11 +138,11 @@ g a:hover path,
 }
 
 .modal-content img {
-  height: 80px;
+  height: 40px;
 }
 
 .modal-content .d-flex div {
-  width: 33.33%;
+  width: 33.33%; 
   text-align: center;
 }
 
@@ -152,7 +159,7 @@ g a:hover path,
 }
 .modal-content hr,
 .intro-data hr {
-  border-top: 3px solid #4773aa;
+  border-top: 2px solid #4773aa;
 }
 .modal-content hr {
   width: 80%;
@@ -256,9 +263,10 @@ img#arrow.rotated {
   }
   .modal-content img,
   .modal-content #all-artists.d-flex img {
-    height: unset;
-    width: 50%;
+    height: 70px; /* was unset;  */
+    width: 100%;
     margin: auto;
+      margin-top: 20px;  /* was nopt set;  */
   }
   /* Modal Content/Box */
   .modal-content {

@@ -12,7 +12,7 @@ const loadData = async () => {
             '<div id="modal_'+x.stateAbbr.replace(' ', '-')+'" class="modal">\
               <div class="modal-content">\
                 <p class="close">&times;</p>\
-                <p class="modalscroll">Scroll down for the number and concentration </br>of artists by selected occupation in </p>\
+                <p class="modalscroll">Scroll down for the number and concentration </br>of artists by selected occupation in: </p>\
                 <h1>'+x.state+'</h1>\
                 <div class="d-flex data-row" id="all-artists">\
                     <img src="img/all-artists.svg" />\

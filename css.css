@@ -76,7 +76,7 @@ g a:hover path,
 
 /* Modal Content/Box */
 .modal-content {
-  background-color: rgba(255, 255, 255, 0.95);
+  background-color: rgba(255, 255, 255, 0.96);
   margin: 5% auto 15% auto;
   padding: 20px;
   border: 1px solid #888;
@@ -98,18 +98,20 @@ g a:hover path,
 
 .modal .data-row p {
   font-size: 14px;
+    color: #666;
 }
 
 .modal .data-row p span {
   font-size: 25px;
+  color: black;
 }
 
 
 .modal h1 {
     text-transform: uppercase;
   text-align: center;
-  margin-top: -20px;
-  font-size: 22px;
+  margin-top: -5px;  
+  font-size: 30px;
 }
 
 /* The Close Button */
@@ -239,7 +241,7 @@ img#arrow.rotated {
   padding: 3rem;
 }
 .legend img {
-  height: 75px;
+  height: 65px;
 }
 
 .legend div {
@@ -271,6 +273,14 @@ img#arrow.rotated {
   /* Modal Content/Box */
   .modal-content {
     margin: 5% auto 5% auto;
+  }
+    
+.modal-content p.modalscroll {
+    text-transform: none; 
+    font-size:18px; 
+    font-weight:normal; 
+    text-align:center;
+    margin-top: -5px;
   }
   .intro-data hr.bottom-border {
     margin-top: 3rem;

@@ -273,12 +273,14 @@ img#arrow.rotated {
     margin: 5% auto 5% auto;
   }
     
-.modal-content p.modalscroll {
+.scroll-text {
     text-transform: none; 
     font-size:18px; 
     font-weight:normal; 
     text-align:center;
     margin-top: -5px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .intro-data hr.bottom-border {
     margin-top: 3rem;

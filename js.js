@@ -14,7 +14,7 @@ const loadData = async () => {
                 <p class="close">&times;</p>\
                 <p class="scroll-text" style="text-align:center;">Scroll down for the number and concentration </br>of artists by selected occupation in </p>\
                 <h1>'+x.state+'</h1>\
-                <div class="d-flex data-row" id="all-artists" style="background-color: #ddd;" >\
+                <div class="d-flex data-row" id="all-artists" style="background-color:#e6e7e8;" >\
                     <img src="img/all-artists.svg" />\
                     <div class="all-artists-info">\
                         <h2>All Artists</h2>\

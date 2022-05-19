@@ -261,12 +261,17 @@ img#arrow.rotated {
     margin: auto;
     text-align: center;
   }
+    
+    .d-flex div {
+     background-color: #ddd; /* mio */
+    }    
+
   .modal-content img,
   .modal-content #all-artists.d-flex img {
     height: 70px; /* was unset;  */
     width: 100%;
     margin: auto;
-      margin-top: 20px;  /* was nopt set;  */
+    margin-top: 20px;  /* was nop set;  */
   }
   /* Modal Content/Box */
   .modal-content {

@@ -46,6 +46,7 @@ body {
 /*svg map */
 #state-name h2 {
   text-align: center;
+    margin-bottom:-20px; /* mio */
 }
 .st0 {
   fill: #4773aa;

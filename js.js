@@ -11,12 +11,12 @@ const loadData = async () => {
             stateContainer.insertAdjacentHTML('afterend',
             '<div id="modal_'+x.stateAbbr.replace(' ', '-')+'" class="modal">\
               <div class="modal-content">\
-                <p class="close">&times;</p>\
+                <p class="close" style="position:fixed; right:70px; color:#666;">&times;</p>\
                 <p class="scroll-text" style="text-align:center;">Scroll down for the number and concentration </br>of artists by selected occupation in </p>\
-                <h1>'+x.state+'</h1>\
+                <h1>&mdash; '+x.state+' &mdash;</h1>\
                 <div class="d-flex data-row" id="all-artists" style="background-color:#e6e7e8;" >\
-                    <img src="img/all-artists.svg" />\
-                    <div class="all-artists-info">\
+                  <!--\  <img src="img/all-artists.svg" />\-->\
+                    <div class="all-artists-info" style="padding-top:20px;">\
                         <h2>All Artists</h2>\
                         <div class="d-flex">\
                             <p><strong>Count</strong><br><span>'+x.allArtists[0].count+'</span></p>\

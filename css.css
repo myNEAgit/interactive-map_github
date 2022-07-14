@@ -263,10 +263,13 @@ img#arrow.rotated {
     width: 100%;
     margin: auto;
     text-align: center;
+   
+}
   }
     
-    .d-flex div {
-     background-color:#e6e7e8; /* mio */
+    .d-flex  div {
+     background-color:  #e6e7e8; /* mio */
+    border-radius: 60%;
     }    
 
   .modal-content img,

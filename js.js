@@ -13,12 +13,12 @@ const loadData = async () => {
               <div class="modal-content">\
                 <p class="close" style="position:fixed; right:70px; color:#666;">&times;</p>\
                 <p class="scroll-text" style="text-align:center;">Scroll down for the number and concentration </br>of artists by selected occupation in </p>\
-                <h1>&mdash; '+x.state+' &mdash;</h1>\
-                <div class="d-flex data-row" id="all-artists" style="background-color:#e6e7e8;" >\
-                  <!--\  <img src="img/all-artists.svg" />\-->\
-                    <div class="all-artists-info" style="padding-top:20px;">\
+                <h1>'+x.state+'</h1>\
+                <div id="all-artists" class="d-flex data-row"  style="background-color:#e6e7e8; border-radius: 60%;" >\
+                  <img src="img/all-artists.svg" /> \
+                    <div class="all-artists-info" style="padding:10px; background-color:transparent;">\
                         <h2>All Artists</h2>\
-                        <div class="d-flex">\
+                        <div class="d-flex" style="background-color:transparent;">\
                             <p><strong>Count</strong><br><span>'+x.allArtists[0].count+'</span></p>\
                             <p class="location-quotient"><strong>Location Quotient</strong><br><span>'+x.allArtists[0].lq+'</span><br />&nbsp;</p>\
                         </div>\
@@ -34,7 +34,8 @@ const loadData = async () => {
                     </div>\
                     <div>\
                         <img src="img/art-directors.svg" />\
-                        <h2>Art Directors, Fine Artists, and Animators</h2>\
+                        <h2>Art Directors, Fine Artists, <br>\
+                            and Animators</h2>\
                         <p><strong>Count</strong><br><span>'+x.artDirectors[0].count+'</span></p>\
                         <p class="location-quotient"><strong>Location Quotient</strong><br><span>'+x.artDirectors[0].lq+'</span><br />&nbsp</p>\
                     </div>\
